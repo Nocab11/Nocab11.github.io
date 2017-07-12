@@ -1,0 +1,334 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font:;
+	color:;
+}
+* {
+	margin: 0px;
+	padding:0px;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+p {
+	color:#333333;
+	font: normal 16px/30px 'Lato', sans-serif;
+	margin-bottom: 35px;
+}
+h2 {
+	color: #cc9900;
+	font: normal 36px/24px 'Yeseva One', cursive;
+}
+h5 {
+	color:#cc9933;
+	font: normal 21px/24px  'Yeseva One', cursive;
+}
+h4 {
+	color:#ffffff;
+	font: normal 21px/24px  'Yeseva One', cursive;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.left {float:left;}
+.right{float:right;}
+.text-right {text-align: right;}
+.text-left {text-align:left;}
+
+.container {
+	width: 1210px;
+	margin: 0 auto;
+}
+.container1 {
+	width: 1100px;
+	margin: 0 auto;
+}
+.container2 {
+	width: 1170px;
+	margin: 0 auto;
+}
+.box {
+	padding: 100px 0 100px 0;
+}
+/*Шапка сайта */
+.leftcool, .rightcool {
+	width: 50%;
+}
+
+.header {
+	height: 750px;
+	background: url(../images/bg-header.png) no-repeat center bottom;
+	background-size: cover;
+}
+.header ul li{
+	float:left;
+	margin-top: 46px;
+}
+.social ul li {
+	margin-left: 15px;
+}
+.social ul li a{
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+}
+.ic-fb {
+	background: url(../images/ic-fb.png) no-repeat;
+}
+.ic-youtube {
+	background: url(../images/ic-youtube.png) no-repeat;
+}
+.ic-tw {
+	background: url(../images/ic-tw.png) no-repeat center;
+}
+.navigation ul li {
+	margin-right: 50px;
+}
+.navigation ul li a {
+	font: bold 20px 'Gentium Book Basic', serif;
+	color: #fff;
+}
+.navigation ul li a:hover {
+	text-decoration: underline;
+}
+.header h1 {
+	font: normal 90px 'Yeseva One', cursive;
+	padding-top: 110px;
+	color: #fff;
+	text-align: center;
+}
+.decoration {
+	width: 232px;
+	height: 43px;
+	background: url(../images/dec.png) no-repeat ;
+	margin: 32px auto;
+
+}
+.button  {
+	width: 228px;
+	padding: 20px 50px;
+	color: #fff;
+	background: url(../images/bt.png) no-repeat;
+	margin-right: 5px;
+	border: 1px solid #000;
+	text-transform: uppercase;
+	cursor: pointer;
+	font: normal 14px 'Lato', sans-serif;
+}
+.button1 {
+	width: 228px;
+	padding: 20px 50px;
+	color: #fff;
+	background: url(../images/bt1.png) no-repeat;
+	border: 1px solid #000;
+	margin-left: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font: normal 14px 'Lato', sans-serif;
+}
+.button:hover, .button1:hover {
+	background:#1e2e3e;
+}
+
+.but {
+	text-align: center;
+}
+
+/* Контент */
+.content, .reservations, .menu {
+	background: url(../images/bg-content.png) no-repeat center;
+	background-size: cover;
+}
+.just {
+	width: 420px;
+	text-align: center;
+}
+
+.divider-o {
+	background: url(../images/divider-o.png) no-repeat center;
+	height: 24px;
+	margin: 12px 0 12px 0;
+}
+.img-cook {
+	width: 219px;
+	height: 221px;
+	background: url(../images/img-cook.png) no-repeat;
+	margin-top: 50px;
+	position: relative;
+	top: 10%;
+	left: 33%;
+}
+.dish {
+	width: 621px;
+	height: 625px;
+	background: url(../images/dish.png) no-repeat;
+	margin-left: 30px;
+}
+.ingridients {
+
+	background: url(../images/bg3.png) no-repeat center;
+	background-size: cover;
+}
+.fine {
+	width: 570px;
+	height: 556px;
+	text-align: center;
+	margin: 100px auto;
+	background: url(../images/bg5.png) no-repeat center;
+	background-size: cover;
+
+}
+.fine1 {
+	width: 430px;
+	display: inline-block;
+}
+.title {
+	color: #ffffff;
+	font: normal 36px 'Yeseva One', cursive;
+}
+.divider-w {
+	background: url(../images/divider2.png) no-repeat center;
+	height: 24px;
+	margin: 15px 0 20px 0;
+}
+.desrs {
+	color:#ffffff;
+	font: normal 16px/30px 'Lato', sans-serif;
+}
+
+.res img{
+	width: 115px;
+	height: 115px;
+	margin: 70px 0 0 0;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.9);
+	margin-right: 8px;
+
+}
+
+.line {
+	background: url(../images/line.png) no-repeat;
+	height: 1px;
+	border: 0.5px solid #cc9933;
+	margin: 12px 0;
+}
+.reviews {
+	background: url(../images/bg-reviews.png) no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+}
+.fine3 {
+	width: 770px;
+	height: 556px;
+	text-align: center;
+	margin: 50px auto;
+	background: url(../images/bgg.png) no-repeat center;
+	background-size: cover;
+	padding: 80px 0;
+}
+.desrs1 {
+	font: normal 25px/40px 'Lato', sans-serif;
+	color:#ffffff;
+}
+.qoute {
+	background: url(../images/qoute.png) no-repeat ;
+	height: 25px;
+	padding-bottom: 7px;
+
+}
+.fine4 {
+	width: 660px;
+	display: inline-block;
+}
+
+.res-img {
+	padding: 100px 0;
+}
+.res-img img+img {
+	margin-left:30px;
+}
+
+.reservations p {
+	margin-bottom: 20px;
+	font: normal 16px/23px 'Lato', sans-serif;
+}
+.reservations span {
+	color:#cc9933;
+	font: normal 21px/24px  'Open Sans', sans-serif;
+	width: 100%;
+	text-align: start;
+}
+#message .btn:hover {
+	background: #996633;
+}
+
+#message .left, #message .right {
+	width: 40%;
+}
+#message input[type="text"] {
+	width: 100%;
+	padding: 10px 13px;
+	margin-bottom: 40px;
+	color: #666666;
+	font: italic 16px/24px  'Open Sans', sans-serif;
+}
+#message input[type="submit"] {
+	background: #cc9933;
+	font: normal 16px/24px  'Open Sans', sans-serif;
+	color: #ffffff;
+	padding: 8px 50px;
+	border: none;
+	cursor: pointer;
+}
+/* Подвал сайта */
+.footer {
+	background: url(../images/bg-footer.png) no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+	text-align: center;
+}
+.about-us {
+	width: 33.33%;
+}
+.about-us:last-child {
+	width: 20%;
+}
+.footer p {
+	color:#ffffff;
+	font: normal 16px/24px 'Open Sans', sans-serif;
+	margin-bottom: 0;
+}
+.footer span {
+	font-weight: bold;
+}
+.Our-Location {
+	float:right;
+	text-align: center;
+
+}
+.icons-w {
+	background: url(../images/icons.png) no-repeat center;
+	height: 15px;
+	margin-top: 50px;
+}
+.socials {
+	background: url(../images/socials.png) no-repeat center;
+	height: 17px;
+	margin-top: 50px;
+}
