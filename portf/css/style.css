@@ -72,12 +72,12 @@ h4 {
 }
 
 .header {
-	height: 750px;
 	background: url(../images/bg-header.png) no-repeat center bottom;
 	-webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
          	background-size: cover;
+    padding-bottom: 140px;
 }
 .header ul li{
 	float:left;
