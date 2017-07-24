@@ -117,12 +117,16 @@ p {
 }
 .doob {
 	margin-left: 45px;
+	width: 35%;
 }
 .doob p{
-	margin-top:42px;
+	margin: 18px 80px 6px 0;
 	font: normal 18px Arial;
 	color:#999999;
 	text-align: center;
+}
+.cash  {
+	width: 58%;
 }
 .rd {
 	text-align: left;
@@ -138,10 +142,7 @@ p {
 	color:#333333;
 	font-size: 14px;
 }
-.doob p {
-	margin: 10px 0 20px 0;
-	font-size: 20px;
-}
+
 .icon {
 	margin-top: 25px;
 }
