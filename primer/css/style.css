@@ -52,15 +52,15 @@ h4 {
 .text-left {text-align:left;}
 
 .container {
-	width: 1210px;
+	max-width: 1210px;
 	margin: 0 auto;
 }
 .container1 {
-	width: 1100px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 .container2 {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 .box {
@@ -178,7 +178,7 @@ h4 {
 	left: 33%;
 }
 .dish {
-	width: 621px;
+	max-width: 621px;
 	height: 625px;
 	background: url(../images/dish.png) no-repeat;
 	margin-left: 30px;
@@ -189,7 +189,7 @@ h4 {
 	background-size: cover;
 }
 .fine {
-	width: 570px;
+	max-width: 570px;
 	height: 556px;
 	text-align: center;
 	margin: 100px auto;
@@ -198,7 +198,7 @@ h4 {
 
 }
 .fine1 {
-	width: 430px;
+	max-width: 430px;
 	display: inline-block;
 }
 .title {
@@ -237,7 +237,7 @@ h4 {
 	padding: 50px 0;
 }
 .fine3 {
-	width: 770px;
+	max-width: 770px;
 	height: 556px;
 	text-align: center;
 	margin: 50px auto;
@@ -256,7 +256,7 @@ h4 {
 
 }
 .fine4 {
-	width: 660px;
+	max-width: 660px;
 	display: inline-block;
 }
 
