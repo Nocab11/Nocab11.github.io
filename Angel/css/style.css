@@ -1,0 +1,118 @@
+@import url(reset.css);
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header {
+	background: url(../images/1_HEADER_bg.jpg) no-repeat center top;
+	
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+         	background-size: cover;
+         	max-width: 1920px;
+         	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.content {
+	text-align: center;
+
+	margin: 0 auto;
+}
+.btn {
+	width: 550px;
+	height: 234px;
+	
+	background: url(../images/BTN_play_normal.png) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+.btn:hover {
+	background: url(../images/BTN_play_hover.png) no-repeat;
+}
+.btn:active {
+	background: url(../images/BTN_play_active.png) no-repeat;
+	border: none;
+}
+.header-text {
+	font-size: 24px;
+  font-family: "Lora";
+  color: rgb(238, 238, 238);
+  line-height: 1.5;
+  text-align: center;
+	max-width: 900px;
+	margin: 0 auto;
+ 
+}
+.BTN_scroll {
+	width: 102px;
+	height: 66px;
+	background: url(../images/BTN_scroll_normal.png) no-repeat;
+	display: inline-block;
+	margin-top: 90px;
+	cursor: pointer;
+
+}
+.BTN_scroll:hover {
+	background: url(../images/BTN_scroll_hover.png) no-repeat;
+}
+.BTN_scroll:active {
+	background: url(../images/BTN_scroll_active.png) no-repeat;
+}
+.slaider_container {
+	
+}
+.bg_Isolda {
+	background: url(../images/CHARS/2_CHARS_bg_Isolda.jpg) no-repeat;
+	height: 966px;
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+         	background-size: cover;
+         	max-width: 100%;
+}
+.bg_Lleyn {
+	background: url(../images/CHARS/2_CHARS_bg_Lleyn.jpg) no-repeat;
+	height: 966px;
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+         	background-size: cover;
+         	max-width: 100%;
+}
+.bg_Pamela {
+	background: url(../images/CHARS/2_CHARS_bg_Pamela.jpg) no-repeat;
+	height: 966px;
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+         	background-size: cover;
+         	max-width: 100%;
+}
+
+.tyyt {
+	max-width: 1660px;
+	margin-left: 130px;
+}
+.left {
+	position: absolute;
+	margin-left: 350px;
+	max-width: 400px;
+	top: 100px;
+}
+.slider_item img {
+	max-width: 100%;
+	height: auto;
+}
+.position-a {
+	text-align: start;
+}
+.op {
+	float: right;
+}
