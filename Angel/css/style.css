@@ -169,8 +169,13 @@ p.header-text {
 }
 /*********Видео*********/
 #video {
-    max-width: 1920px;
-    height: 856px;	
+	background: url(../video/3_VIDEO_shadow_top.png) no-repeat center center;	
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+         	background-size: cover;
+    width: 1900px;
+    height: 1071.68px;	
     background-size: cover;
 }
 .header-text1 {
@@ -202,7 +207,7 @@ p.header-text {
          -o-background-size: cover;
          	background-size: cover;
          	max-width: 1900px;
-         	height: 1090px;	
+         	height: 1192px;	
 }
 .mount_head {
 	position: absolute;
