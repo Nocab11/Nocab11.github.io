@@ -231,7 +231,11 @@ header {
 	left: 640.731px;
   top: 1987.698px;
 }
-
+.icon_video {
+		position: absolute;
+	left: 840.731px;
+  top: 2387.698px;
+}
 .position-d-d {
 		position: absolute;
 	right: 620px;
