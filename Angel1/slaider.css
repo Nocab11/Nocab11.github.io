@@ -205,11 +205,6 @@ input[type="radio"]:checked + label{
 background: url(2_CHARS_bg_Pamela.jpg) no-repeat;
 }
 #slider{
-	
-}
-.pamela {
-	display: none;
-}
-.lieyn {
-	display: none;
+	height: 962px;
+	overflow: hidden;
 }

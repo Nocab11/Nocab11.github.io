@@ -6,13 +6,10 @@ $(document).ready(function() {
         return false;
     });
 });
-$(function(){
-	$('.hide2').on('click', function (){
-		$('.pamela').slideToggle();
+$(function() {
+  $('.hide-block:not(:first)').hide();
+		$('.gw1').click(function() {
+			$('.hide-block').hide();
+			$(this).siblings('.hide-block').show();
 	})
-});
-$(function(){
-	$('.hide3').on('click', function (){
-		$('.lieyn').slideToggle();
-	})
-});
+})
